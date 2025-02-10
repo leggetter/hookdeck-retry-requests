@@ -6,12 +6,16 @@ This uses the [Retry a Request endpoint](https://hookdeck.com/docs/api#retry-a-r
 
 ## Usage
 
-1. Add your Hookdeck Project API Key (Hookdeck dashboard -> Settings -> Secrets) to the `.env` file. See `.env.example` as an example.
-2. Install dependencies:
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/leggetter/hookdeck-retry-requests.git
+   ```
+2. Add your Hookdeck Project API Key (Hookdeck dashboard -> Settings -> Secrets) to the `.env` file. See `.env.example` as an example.
+3. Install dependencies:
    ```sh
    npm i
    ```
-3. Run the script:
+4. Run the script:
    ```sh
    npm run dev
    ```
